@@ -1,7 +1,5 @@
 body {
     background-image: url("bgg.jpg");
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-family: fantasy; */
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -30,13 +28,10 @@ body {
     text-decoration: none;
 }
 
-header .nav ul span
-{    
+header .nav ul span {
     float: right;
     font-size: 2rem;
     margin-right: 60px;
-    /* font-family: cursive; */
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: "Dancing Script";
 }
 
@@ -56,7 +51,6 @@ main .t {
     border: 1px solid;
     border-radius: 10px;
     background-color: rgb(241, 241, 241);
-    /* background-image: url("tbg.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -67,7 +61,6 @@ main .t {
 main div center .img {
     height: 300px;
     width: 300px;
-    /* border: rgb(68, 59, 59) solid ; */
     border-radius: 150px;
     background-image: url("img.avif");
     background-size: cover;
@@ -83,26 +76,24 @@ h1 {
     text-align: center;
     color: rgb(18, 49, 81);
 }
- 
+
 
 center .t .row .col {
     float: left;
     height: 150px;
-    width: 200px;
+    width: 250px;
     padding-top: 20px;
-    margin-left: 270px;
-    border: 1px solid black;
+    margin-left: 200px;
+    border: 2px solid black;
     border-radius: 5px;
-
-
 }
 
 /* Skills Section */
 
-main center .t .skill
-{
+main center .t .skill {
     margin-left: 150px;
 }
+
 main center .t .skill div {
     float: left;
     height: 500px;
@@ -115,7 +106,7 @@ main center .t .skill center span {
     color: rgb(17, 17, 70);
     font-size: 2rem;
     margin-top: -10px;
-  
+
 
 }
 
@@ -135,17 +126,33 @@ main center .t .skill center .outer .inner {
     border-radius: 5px;
     background-color: rgb(16, 21, 65);
 }
+
 /* for contact us page  */
 main center .t .con div {
     height: 200px;
     width: 50%;
-    border: 2px ridge  rgb(16, 21, 65);
+    border: 2px ridge rgb(16, 21, 65);
     border-radius: 10px;
     margin-top: 80px;
     font-size: 3rem;
     padding-bottom: 10px;
 }
 
+main center .t .con div:hover {
+    background-color: rgb(124, 124, 130);
+}
+
+
 main center .t .con div span {
     margin: 10px;
+}
+
+main center .t .con div a{
+    text-decoration: none;
+    color: black;
+}
+
+main center .t .con div a:hover{
+    color: rgb(24, 81, 137);
+    
 }
